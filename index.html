@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Os Mutantes</title>
+    <title>Acessibilidade no Transporte Público</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
@@ -14,10 +14,10 @@
 <body>
     <header class="p-5">
         <nav class="container d-flex justify-content-between align-items-center">
-            <img src="img/logo-mutantes.png" alt="Logo Os Mutantes" class="nav-img" loading="lazy">
+            <img src="img/logo-transporte.png" alt="Logo Acessibilidade no Transporte Público" class="nav-img" loading="lazy">
             <ul class="nav mt-5">
                 <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
-                <li class="nav-item"><a class="nav-link" href="#tropicalia">Tropicália</a></li>
+                <li class="nav-item"><a class="nav-link" href="#tropicalia">Acessibilidade</a></li>
                 <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
             </ul>
@@ -26,7 +26,7 @@
                 <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
                     <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
                     <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="Diminuir o tamanho da fonte">A-</button>
-                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"><i class="bi bi-shadows"></i></button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alternar o contraste de cores"><i class="bi bi-shadows"></i></button>
                 </div>
             </div>
         </nav>
@@ -34,64 +34,65 @@
 
     <main class="container my-5">
 
+        <!-- INÍCIO -->
         <section id="inicio" class="my-5">
             <div class="inicio-fundo d-flex justify-content-between align-items-center">
                 <div class="esquerda-conteudo">
-                    <h1 class="display-4 text-dark fst-italic fw-bold">Bem-vindo ao mundo</h1>
-                    <h1 class="display-4 text-primary fst-italic fw-bold">de Os Mutantes</h1>
-                    <p class="lead">Pioneiros do rock psicodélico brasileiro e ícones da Tropicália.</p>
-                    <a href="#tropicalia" class="btn btn-warning btn-lg botao-inicio fw-semibold">Quero conhecer!</a>
+                    <h1 class="display-4 text-dark fst-italic fw-bold">Acessibilidade no</h1>
+                    <h1 class="display-4 text-primary fst-italic fw-bold">Transporte Público</h1>
+                    <p class="lead">Garantindo inclusão, mobilidade e autonomia para todos.</p>
+                    <a href="#tropicalia" class="btn btn-warning btn-lg botao-inicio fw-semibold">Saiba mais</a>
                 </div>
                 <div class="direita-imagem">
-                    <img src="img/os-mutantes-banner.jpg" alt="Os Mutantes" class="img-inicio rounded" loading="lazy">
+                    <img src="img/onibus-acessivel.jpg" alt="Ônibus acessível com rampa" class="img-inicio rounded" loading="lazy">
                 </div>
             </div>
         </section>
 
-        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia" tabindex="0" aria-label="Seção explicativa sobre a tropicália">
+        <!-- SEÇÃO PRINCIPAL -->
+        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia" tabindex="0">
             <div class="container d-flex flex-wrap align-items-center">
                 <div class="col-md-4 d-flex justify-content-center mb-3">
-                    <img src="img/os-mutantes-1968.jpg" alt="Foto antiga de Os Mutantes" class="rounded-pill" width="273" height="331" loading="lazy">
+                    <img src="img/rampa-transporte.jpg" alt="Pessoa utilizando rampa de embarque" class="rounded-pill" width="273" height="331" loading="lazy">
                 </div>
+
                 <div class="col-md-7">
-                    <h2>Quem são Os Mutantes?</h2>
+                    <h2>A importância da acessibilidade</h2>
                     <p class="p-2">
-                        Os Mutantes é uma banda brasileira formada no final dos anos 1960, associada ao movimento
-                        Tropicalista. Misturando rock psicodélico com ritmos e sons brasileiros, o grupo ganhou destaque
-                        por suas experimentações sonoras, uso criativo de efeitos e atitude irreverente. Membros como Arnaldo
-                        Baptista, Rita Lee e Sérgio Dias contribuíram para uma sonoridade única que influenciou gerações.
+                        A acessibilidade no transporte público garante que todas as pessoas — incluindo idosos, pessoas com deficiência física, visual e mobilidade reduzida — possam se deslocar com segurança, autonomia e dignidade.
                     </p>
+
                     <p class="p-2">
-                        Eles dialogavam com influências internacionais (como The Beatles e o rock psicodélico) ao mesmo tempo
-                        em que subvertiam e reinventavam a cultura nacional — fazendo da mistura e da transgressão estética
-                        uma marca registrada.
+                        Rampas, piso tátil, elevadores, sinalizações visuais e sonoras e motoristas treinados são elementos essenciais para tornar o transporte realmente inclusivo. Quanto mais acessível o sistema, maior é a integração da comunidade e a igualdade de oportunidades.
                     </p>
                 </div>
             </div>
         </section>
 
-        <section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens" class="my-5">
+        <!-- GALERIA -->
+        <section id="galeria" tabindex="0" class="my-5">
             <h2 class="text-center pt-5">Galeria</h2>
             <div class="container p-3 mt-3 fundo-galeria">
                 <div class="row justify-content-md-center">
                     <div class="col-md-4 mb-4">
-                        <img src="img/os-mutantes-capa.jpg" alt="Capa de álbum de Os Mutantes" class="img-fluid rounded-5" loading="lazy">
+                        <img src="img/elevador-onibus.jpg" alt="Elevador de ônibus acessível" class="img-fluid rounded-5" loading="lazy">
                     </div>
                     <div class="col-md-4 mb-4">
-                        <img src="img/gal-collage-mutantes.jpg" alt="Colagem psicodélica de Os Mutantes" class="img-fluid rounded-5" loading="lazy">
+                        <img src="img/piso-tatil.jpg" alt="Piso tátil em terminal de ônibus" class="img-fluid rounded-5" loading="lazy">
                     </div>
                 </div>
                 <div class="row mt-4 justify-content-md-center">
                     <div class="col-md-4 mb-4">
-                        <img src="img/rita-lee.jpg" alt="Rita Lee nos anos 60" class="img-fluid rounded-5" loading="lazy">
+                        <img src="img/vaga-pcD.jpg" alt="Vaga preferencial para PcD" class="img-fluid rounded-5" loading="lazy">
                     </div>
                     <div class="col-md-4 mb-4">
-                        <img src="img/arnaldo-e-sergio.jpg" alt="Arnaldo Baptista e Sérgio Dias" class="img-fluid rounded-5" loading="lazy">
+                        <img src="img/acessibilidade-urbana.jpg" alt="Calçada e ponto de ônibus acessíveis" class="img-fluid rounded-5" loading="lazy">
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- CONTATO -->
         <section id="contato" class="my-5">
             <div class="container p-5 d-flex justify-content-center">
                 <div class="col-md-8 col-lg-10 rounded-5 formulario">
@@ -99,16 +100,19 @@
                     <form>
                         <div class="form-group mb-3">
                             <label for="nome">Nome</label>
-                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1" placeholder="Digite seu nome completo">
+                            <input type="text" id="nome" class="form-control rounded-3 mt-1" placeholder="Digite seu nome completo">
                         </div>
+
                         <div class="form-group mb-3">
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1" placeholder="Digite seu email">
+                            <input type="email" id="email" class="form-control rounded-3 mt-1" placeholder="Digite seu email">
                         </div>
+
                         <div class="form-group mb-3">
                             <label for="mensagem">Mensagem</label>
-                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4" placeholder="Escreva sua mensagem"></textarea>
+                            <textarea id="mensagem" class="form-control rounded-4 mt-2" rows="4" placeholder="Escreva sua mensagem"></textarea>
                         </div>
+
                         <div class="d-grid gap-2">
                             <button type="submit" class="btn btn-warning btn-lg rounded-pill">Enviar mensagem</button>
                         </div>
@@ -120,11 +124,11 @@
     </main>
 
     <footer class="text-center p-3 fst-italic">
-        <p>Acesse nossas redes:</p>
-        <i class="bi bi-whatsapp" aria-label="WhatsApp"></i>
-        <i class="bi bi-instagram" aria-label="Instagram"></i>
-        <i class="bi bi-tiktok" aria-label="TikTok"></i>
-        <p class="mt-3">Desenvolvido por Start by Alura. Projeto fictício sem fins comerciais.</p>
+        <p>Acompanhe nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Projeto criado para estudo. Tema: Acessibilidade no Transporte Público.</p>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
